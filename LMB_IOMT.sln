@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMB_IOMT_Client", "LMB_IOMT_Client\LMB_IOMT_Client.csproj", "{46830595-D4F0-4F6D-9B96-96ECCA271DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMB_IOMT_Server", "LMB_IOMT_Server\LMB_IOMT_Server.csproj", "{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMB_IOMT_DB", "LMB_IOMT_DB\LMB_IOMT_DB.csproj", "{8E146177-18C1-476F-A683-1830DF20F007}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMB_IOMT_Web", "LMB_IOMT_Web\LMB_IOMT_Web.csproj", "{BCDAE382-85C0-4C15-9837-1D373841BDB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LMB_IOMT_Worklog", "LMB_IOMT_Worklog", "{BC9DB380-1A92-4327-B63F-DA995B776137}"
+	ProjectSection(SolutionItems) = preProject
+		LMB_IOMT_Worklog\Worklog.txt = LMB_IOMT_Worklog\Worklog.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LMB_IOMT_Test", "LMB_IOMT_Test", "{F267AF29-82C7-47FF-B953-2B8D262FD2F5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LMB_IOMT_Documents", "LMB_IOMT_Documents", "{FFB0DEB2-FD22-44E1-9BFD-920FBFCA4C56}"
+	ProjectSection(SolutionItems) = preProject
+		LMB_IOMT_Docs\RoadMap.txt = LMB_IOMT_Docs\RoadMap.txt
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMB_IOMT_Common", "LMB_IOMT_Common\LMB_IOMT_Common.csproj", "{7EEA2092-C77B-46D3-8F7E-293E782ABB69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LMB_IOMT_Protocol", "LMB_IOMT_Protocol", "{8964A0ED-480B-41A5-9C15-29452724C0CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMB_IOMT_Protocol_Client", "LMB_IOMT_Test\LMB_IOMT_Protocol\Client\LMB_IOMT_Protocol_Client.csproj", "{28497B4F-D98E-45EA-A14C-B62F1DCE7343}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LMB_IOMT_Protocol_Server", "LMB_IOMT_Test\LMB_IOMT_Protocol\Server\LMB_IOMT_Protocol_Server.csproj", "{6E078249-9EA2-4CBA-A707-BCDFDE3C0C06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46830595-D4F0-4F6D-9B96-96ECCA271DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46830595-D4F0-4F6D-9B96-96ECCA271DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46830595-D4F0-4F6D-9B96-96ECCA271DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46830595-D4F0-4F6D-9B96-96ECCA271DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2A9EEE-09F0-40C1-AA86-A6DE35178CC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E146177-18C1-476F-A683-1830DF20F007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E146177-18C1-476F-A683-1830DF20F007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E146177-18C1-476F-A683-1830DF20F007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E146177-18C1-476F-A683-1830DF20F007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDAE382-85C0-4C15-9837-1D373841BDB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDAE382-85C0-4C15-9837-1D373841BDB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDAE382-85C0-4C15-9837-1D373841BDB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDAE382-85C0-4C15-9837-1D373841BDB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EEA2092-C77B-46D3-8F7E-293E782ABB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEA2092-C77B-46D3-8F7E-293E782ABB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEA2092-C77B-46D3-8F7E-293E782ABB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEA2092-C77B-46D3-8F7E-293E782ABB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28497B4F-D98E-45EA-A14C-B62F1DCE7343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28497B4F-D98E-45EA-A14C-B62F1DCE7343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28497B4F-D98E-45EA-A14C-B62F1DCE7343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28497B4F-D98E-45EA-A14C-B62F1DCE7343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E078249-9EA2-4CBA-A707-BCDFDE3C0C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E078249-9EA2-4CBA-A707-BCDFDE3C0C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E078249-9EA2-4CBA-A707-BCDFDE3C0C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E078249-9EA2-4CBA-A707-BCDFDE3C0C06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8964A0ED-480B-41A5-9C15-29452724C0CE} = {F267AF29-82C7-47FF-B953-2B8D262FD2F5}
+		{28497B4F-D98E-45EA-A14C-B62F1DCE7343} = {8964A0ED-480B-41A5-9C15-29452724C0CE}
+		{6E078249-9EA2-4CBA-A707-BCDFDE3C0C06} = {8964A0ED-480B-41A5-9C15-29452724C0CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4D23FC6-5FCA-4759-AD8B-C2896BB709CD}
+	EndGlobalSection
+EndGlobal
