@@ -1,2 +1,2 @@
 # LMB_IOMT
-An IOT repository
+An IOT repository that's yet incomplete.
